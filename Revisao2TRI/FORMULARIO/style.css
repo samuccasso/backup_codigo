@@ -1,0 +1,33 @@
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #e3e3e3;
+}
+
+.box-formulario {
+  justify-content: space-around;
+  align-items: center;
+  height: 200px;
+  background-color: #fff;
+  padding: 12px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  border: 1px solid #c0c0c0;
+  display: flex;
+  flex-direction: column;
+}
+
+.box-formulario form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 90%;
+}
