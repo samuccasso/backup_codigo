@@ -1,0 +1,97 @@
+html {
+  height: 100%;
+  width: 100%;
+  font-family: arial;
+  margin: 0;
+  padding: 0;
+}
+
+.menu{
+  background-color: #ffffff;
+  padding: 25px;
+  display: flex;
+  justify-content:space-between;
+}
+
+.img {
+  max-width:110px;
+  max-height:40px;
+  width: auto;
+  height: auto;
+  
+}
+a{
+  color: #215732;
+  margin: 5px;
+  text-decoration: none;
+}
+
+}
+#duvidas{
+  color: #215732;
+}
+#produtos{
+  color: #215732;
+}
+#contato{
+  color: #215732;
+}
+
+.box{
+  width: 100%;
+  height:100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 30px;
+  text-shadow: 2px 2px 8px rgb(111 66 80 / 40%);
+  letter-spacing: 7px;
+  font-family: Montserrat, sans-serif !important;
+  color: white;
+}
+.paragrafo{
+  font-size: 20px;
+  align-items: flex-start;
+  color: white;
+}
+
+.background{
+  background-image: linear-gradient(90deg, #215732, #399354, #45b566);
+}
+.email{
+  color: white;
+  height: 45px;
+  width: 200px;
+  padding: 4px;
+   margin: 4px;
+  outline: none;
+   border: none;
+  text-decoration: none;
+  border-radius: 30px;
+}
+.senha{
+  color: white;
+  height: 45px;
+  width: 200px;
+  padding: 4px;
+   margin: 4px;
+  outline: none;
+   border: none;
+  text-decoration: none;
+  border-radius: 30px;
+  
+}
+.botao-entrar{
+  height: 45px;
+  width: 150px;
+  padding: 8px;
+   margin: 8px;
+  outline: none;
+  border: none;
+  border-radius: 30px;
+  text-decoration: none;
+  background-color: black;
+  color: white;
+
+}
