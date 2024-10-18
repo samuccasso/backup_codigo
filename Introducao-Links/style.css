@@ -1,0 +1,27 @@
+html {
+  height: 100%;
+  width: 100%;
+  background-color: #9a7b5d;
+  align-items: right;
+  border: 2px;
+  
+  
+}
+.img{
+  display: flex;
+  width: 250px;
+  height: 300px;
+  
+}
+.cartao{
+    background-color: #1f1410;
+  display: flex;
+      text-align: center;
+      flex-direction: column;
+    border: 1px solid black;
+      padding:30px;
+      margin: 25px 10px;
+      border-radius: 8px;
+  box-shadow: 5px 10px 15px #242527;
+  align-items: center;
+}
